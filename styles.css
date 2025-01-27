@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Parkinsans", serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #16161a;
+}
+
+.container{
+    max-width: 32rem;
+    text-align: center;
+}
+
+h1, h4 {
+    color: #fffffe;
+    margin-bottom: 0.8rem;
+}
+
+h1{
+font-size: 1.6rem;
+}
+
+.inputCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fffffe;
+    color: #010101;
+    padding: 2.4rem 0.8rem;
+    border-radius: 1.2rem;
+    box-shadow:  -1px 4px 12px 0px rgba(127,90,240,1);
+}
+
+.inputCard p{
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.inputCard .input #input{
+    border: none;
+    border-bottom: 0.12rem solid #7f5af0;
+    outline: none;
+    width: 16rem;
+    margin-right: 1.2rem;
+}
+
+.inputCard .input button{
+    border-radius: 0.4rem;
+    padding: 0.12rem 0.8rem;
+    background-color: #fffffe;
+    color: #7f5af0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+    border: 0.024rem solid #7f5af0;
+}
+
+.inputCard .input button:hover{
+    box-shadow:  -1px 2px 8px 0px rgba(127,90,240,1);
+    background-color: #7f5af0;
+    color: #fffffe ;
+    border: 1px solid #7f5af0
+}
+
+.information{
+    display: flex;
+    background-color: #2cb67d;
+    margin-top: 2.4rem;
+    border-radius: 1.2rem;
+    padding: 2.4rem 0.8rem;
+}
+
+.information p, .icon{
+    color: #fffffe;
+    font-size: 1.2rem;
+}
